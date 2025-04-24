@@ -22,21 +22,21 @@ E. student.courseLoad[0]
 ## Basic Operators & Type Conversion
 
 13) 
-A. '32'
-B. 1
-C. 3
-D. '3null'
-E. 4
-F. 3
-G. '3undefined'
-H. NaN
+A. '32', number is turned into a string so these two combine
+B. 1, '-' only works with its so the string is type converted
+C. 3, null gets type converted to its int value of 0
+D. '3null', null gets turned into a string and they are concatenated
+E. 4, true has an int value of 1
+F. 3, false has value of 0
+G. '3undefined', undefined gets turned into a string and concatenated
+H. NaN, these are coerced into a number which would then be undefined
 
 14) 
-A. true
-B. false
-C. true
-D. false
-E. false 
-F. true
+A. true, numeric comparison
+B. false, compared by alphabetical order
+C. true, loose equality so its true
+D. false, false because strict equality checks type too
+E. false, true has int value of 1
+F. true, any nonzero int has a truth value so Boolean(2) = true
 
 15) "==" compares the values of two data types while "===" compares both the value and the data type.
