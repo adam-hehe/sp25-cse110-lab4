@@ -9,4 +9,14 @@
 9) Error: same as 5, i would not be defined here
 10) 3
 11) \[50,100,150\]
+
+## Data Types
+
 12) 
+A. student.name
+B. student['Grad Year']
+C. student.greeting()
+D. student['Favorite Teacher'].name
+E. student.courseLoad[0]
+
+## Basic Operators & Type Conversion
