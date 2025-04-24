@@ -20,3 +20,23 @@ D. student['Favorite Teacher'].name
 E. student.courseLoad[0]
 
 ## Basic Operators & Type Conversion
+
+13) 
+A. '32'
+B. 1
+C. 3
+D. '3null'
+E. 4
+F. 3
+G. '3undefined'
+H. NaN
+
+14) 
+A. true
+B. false
+C. true
+D. false
+E. false 
+F. true
+
+15) "==" compares the values of two data types while "===" compares both the value and the data type.
