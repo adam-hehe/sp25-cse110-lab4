@@ -40,3 +40,7 @@ E. false, true has int value of 1
 F. true, any nonzero int has a truth value so Boolean(2) = true
 
 15) "==" compares the values of two data types while "===" compares both the value and the data type.
+
+17) This code is passing a function as an arugment. When its called its passes the doSomething function that multiplies a number by 2. Whithin the modifyArray function it calls the doSomthing function on every element of the input array and then outputs that new array. This basically returns an array where all the input elements are doubled.
+
+19) 1,4,3,2
