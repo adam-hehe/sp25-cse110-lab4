@@ -1,0 +1,2 @@
+1) The bug was the num1 and num2 were strings, so when they were added together they got concatenated
+2) For fixing the bug, I would convert the num1 and num2 variables into numbers in the calculateSum function right before they get added together.
